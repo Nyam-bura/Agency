@@ -1,8 +1,17 @@
+
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
+}
+.logo1{
+    margin-left: 2%;
+    margin-bottom: -3%;
+}
+.abu{
+    margin-left: 6%;
+    color: rgb(103, 174, 177);
 }
 nav{
     height: auto;
@@ -18,29 +27,73 @@ nav li{
 }
 .btn{
     margin-left: 80%;
-    border: 2px solid;
-    background-color: blueviolet; 
-    margin-top: -4%; 
+    margin-top: -4%;
+    border-radius: 30%;
 }
 .image1{
     margin-left: 25%;
-    margin-top: -24%; 
+    margin-top: -24%;
+    background-image: url('splash.png'); 
  }
+ .fa-brands .fa-instagram{
+    border: 30px solid;
+    border-radius: 200%;
+    margin-top: 2%;
+
+}
+.media{
+    margin-left: 3%;
+    margin-top: 4%;
+}
+.fa-brands .fa-twitter{
+    border: 30px solid;
+    border-radius: 200%;
+
+}
  .agent h1{
     font-size: xx-large;
-    margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: 10%;
+    margin-top: 5%;
 }
 .agent p{
     margin-left: 10%;
-    margin-top: 2%;
+    margin-bottom: -6%;
+    margin-top: -5%;
+    font-size: large;
 
 }
 .butt{
    
     margin-left: 10%;
-    margin-top: 2%;
-    color: green;
+    margin-top: -5%;
+    margin-bottom: 9%;
+    
+    /* color: rgb(54, 104, 54); */
+ }
+ .butt button{
+     background-color:cadetblue;
+ }
+ .Slack{
+     float: right;
+     margin-right: 100%;
+     margin-top: 15%;
+ /* }
+ .prudential{
+   /* margin-bottom: -25%; */
+   margin-bottom: -40%;
+   margin-left: -20%;
+ } 
+ .microsoft{
+     margin-bottom: -5%;
+     margin-top: -65%;
+     display: flex;
+     margin-left: 80%;
+ }
+ .zoover{
+     margin-left: 180%;
+     margin-bottom: 20%;
+     margin-top: -70%;
  }
  .exp{
      display: flex;
@@ -72,23 +125,39 @@ nav li{
 }
 .align{
     display:inline-flex;
+    margin-left: 60px;
+    margin-top: 2%;
 }
 .desi{
-    background-color: darkgray;
+    background-color: ghostwhite;
     margin-left: 10%;
 }
 .dev{
-    background-color: rgb(13, 73, 13);
+    background-color:rgb(67,161,146);
+    margin-left: 0%;
 }
 .mark{
-    background-color: rgb(123, 172, 167);
+    background-color: rgb(234,246,254);
+}
+ .log0{ 
+   margin-left:2%;
+   margin-bottom: -1%;
+   margin-top: -6%;
+}
+.SERVICES{
+    margin-top: 10%;
+    /* color: dodgerblue; */
+}
+.s{
+    color: dodgerblue; 
 }
 .services{
-    margin-left: 21%;
+  margin-left: 21%;
 }
 .image2{
     float: left;
     margin-left:-10%;
+    background-image:url('splash.png') ;
 }
 .how h1{
     margin-left: 59%;
@@ -98,21 +167,35 @@ nav li{
 .work{
     margin-left: 30%;
 }
+.wor{
+    margin-left: 60%;
+    margin-bottom: -3%;
+    color: dodgerblue;
+   
+}
+.worky{
+  margin-left: 78%;
+  margin-bottom: -7%;
+  margin-right: -1%;
+}
 .numbs{
     display: flex;
 }
 .num1{
    display: flex;
+   margin-left: 20%;
+   margin-top: 2%;
 }
 .num2{
     display: flex;
     margin-top: 9%;
     margin-left: -45%;
+
 }
 .num3{
     display: flex;
     margin-top:18%;
-    margin-left:-51%;
+    margin-left:-50%;
 }
 .subscriber{
     display: flex;
@@ -122,6 +205,7 @@ nav li{
     justify-content: center;
     font-size: x-large;
     margin-left:0% ;
+    border-radius: 70%;
 }
 .sub{
     margin-top:23%;
@@ -133,4 +217,59 @@ nav li{
     margin-top: 1%;
     margin-left: 10%;
 }
-
+.w{
+    color: dodgerblue;
+    margin-bottom: 2%;
+}
+.l{
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+}
+.have{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.bt{
+    margin-top: 7%;
+    /* background-color: aqua; */
+    margin-left: 7%;
+    height: 20px;
+    width: 20px;
+    border: radius 20%;
+    /* color: green ; */
+}
+.bt button{
+    background-color: cadetblue;
+    border-radius: 30%;
+    border: -10%;
+}
+.message{
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.name1{
+    margin-left: 8%;
+    margin-top: 2%;
+    border-radius: 20%;
+    border-color: rgb(228, 153, 193);
+}
+.id{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.id h1{
+    color: rgb(77, 77, 114);
+}
+.msg{
+    margin-top: 2%;
+    margin-left: 10%;
+    color: rgb(77, 77, 114);
+}
+.image3{
+    float: left;
+    margin-bottom: 90%;
+    margin-top: -30%;
+    margin-left: 40%;
+    background-image: url('splash.png');
+}
